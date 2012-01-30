@@ -2,7 +2,7 @@
 Summary:	A scripting framework that replaces rake, sake and rubigen
 Name:		rubygem-%{gemname}
 Version:	0.14.6
-Release:	%mkrel 1
+Release:	%mkrel 2
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
 Group:		System/Servers
@@ -10,6 +10,7 @@ Url:		http://www.rubyonrails.org/
 BuildRoot:	%{_tmppath}/%{gemname}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 BuildRequires:	ruby-RubyGems
+Provides:       rubygem(%{gemname}) = %{version}
 
 %description
 A scripting framework that replaces rake, sake and rubigen.
