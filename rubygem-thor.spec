@@ -2,7 +2,7 @@
 Summary:	A scripting framework that replaces rake, sake and rubigen
 Name:		rubygem-%{gemname}
 Version:	0.14.6
-Release:	%mkrel 3
+Release:	4
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
 Group:		System/Servers
