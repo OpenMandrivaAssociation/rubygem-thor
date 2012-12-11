@@ -33,3 +33,23 @@ rm -rf %{buildroot}%{ruby_gemdir}/cache
 %{ruby_gemdir}/gems/%{gemname}-%{version}
 %{ruby_gemdir}/specifications/%{gemname}-%{version}.gemspec
 %doc %{ruby_gemdir}/doc/%{gemname}-%{version}
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.14.6-4
++ Revision: 774161
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Mon Jan 30 2012 Crispin Boylan <crisb@mandriva.org> 0.14.6-3
++ Revision: 769823
+- Fix file list
+
+* Mon Jan 30 2012 Crispin Boylan <crisb@mandriva.org> 0.14.6-2
++ Revision: 769795
+- Manual provides
+
+* Mon Jan 30 2012 Crispin Boylan <crisb@mandriva.org> 0.14.6-1
++ Revision: 769794
+- New mdv package
+- Created package structure for 'rubygem-thor'.
+
