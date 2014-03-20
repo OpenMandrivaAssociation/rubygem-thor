@@ -4,6 +4,7 @@ Name:		rubygem-%{gemname}
 Version:	0.14.6
 Release:	4
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
+Source1:        %{name}.rpmlintrc
 License:	MIT
 Group:		System/Servers
 Url:		http://www.rubyonrails.org/
