@@ -7,7 +7,7 @@ Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 Source1:        %{name}.rpmlintrc
 License:	MIT
 Group:		System/Servers
-Url:		http://www.rubyonrails.org/
+Url:		https://www.rubyonrails.org/
 BuildRoot:	%{_tmppath}/%{gemname}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 BuildRequires:	ruby-RubyGems
